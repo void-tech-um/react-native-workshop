@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  View,
-  TextInput,
-  Button,
-  Text,
-  GestureResponderEvent,
-  TouchableOpacity,
-} from "react-native";
+import { View, TextInput, Text, TouchableOpacity } from "react-native";
 import { Item } from "../global/types";
 import styles from "../styles/itemFactory";
 

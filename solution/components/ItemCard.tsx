@@ -1,5 +1,5 @@
 import * as React from "react";
-import { View, SafeAreaView, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import { Item } from "../global/types";
 
 import styles from "../styles/itemCard";
