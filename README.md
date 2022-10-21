@@ -19,13 +19,16 @@ $ cd solution/
 $ npm start
 ```
 
-### `npm start`
+## Running the app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the app, you will need to have the [Expo Go](https://expo.dev/client) app installed on your device. You can also use the [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) to run the app on your computer.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Start the development server with `npm start` or `npx expo start`
+
+To open the app:
+
+- On your Android device, press "Scan QR Code" on the "Home" tab of the Expo Go app and scan the QR code you see in the terminal.
+- On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal.
 
 ## Available Scripts
 
@@ -45,15 +48,8 @@ $ ./install DIR
 
 This script will install the dependencies for the project in the specified directory.
 
-## Running the app
+## Learn More
 
-To run the app, you will need to have the [Expo Go](https://expo.dev/client) app installed on your device. You can also use the [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) to run the app on your computer.
+You can learn more about React Native in the [React Native website](https://reactnative.dev/).
 
-Start the development server with `npm start` or `npx expo start`
-
-To open the app:
-
-- On your Android device, press "Scan QR Code" on the "Home" tab of the Expo Go app and scan the QR code you see in the terminal.
-- On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal.
-
-Learn more about Expo at [docs.expo.dev](https://docs.expo.dev/).
+For more information about Expo, see the [Expo documentation](https://docs.expo.dev/).
