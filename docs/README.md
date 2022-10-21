@@ -1,6 +1,12 @@
+---
+layout: spec
+---
+
 # React Native Workshop
 
-This repository contains the starter files for the React Native Workshop for the VOID Tech org at the University of Michigan. The workshop is intended to be a hands-on introduction to React Native and how to build mobile applications with it.
+{: .primer-spec-toc-ignore }
+
+Welcome to the React Native Workshop for the VOID Tech Org at the University of Michigan. The workshop is intended to be a 2 hour workshop that introduces the basics of React Native and how to use it to build a simple mobile application. The workshop is intended to be a hands-on workshop, so the members will be following along to build the application themselves.
 
 ## Getting Started
 
@@ -13,7 +19,7 @@ Download and unpack the starter files:
 ```console
 $ pwd
 /home/santiagomed/umich/void/workshops/react-native-workshop
-$ wget https://voidtechmichigan.com/react-native-workshop/starter_files.tar.gz
+$ wget https://voidtechmichigan.org/react-native-workshop/starter_files.tar.gz
 $ tar -xvzf starter_files.tar.gz
 ```
 
