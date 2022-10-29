@@ -188,6 +188,7 @@ From the [React Native website](https://reactnative.dev/docs/intro-react-native-
 React Native comes with a set of essential, ready-to-use Native Components you can use to start building your app today. These are React Native's Core Components.
 
 Some of the React Native Core Components you are going to be using are:
+
 Component | Android | iOS | HTML | Description
 --- | --- | --- | --- | ---
 `<View>` | `<ViewGroup` | `<UIView>` | `<div>` | A container that supports layout with flexbox, style, some touch handling, and accessibility controls, and is designed to be nested inside other views and to have 0 to many children of any type.
