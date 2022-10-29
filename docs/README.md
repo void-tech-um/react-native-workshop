@@ -195,7 +195,7 @@ Component | Android | iOS | HTML | Description
 `<Image>` | `<ImageView>` | `<UIImageView>` | `<img>` | Displays different types of images, including network images, static resources, temporary local images, and images from local disks, such as the camera roll.
 `<ScrollView>` | `<ScrollView>` | `<UIScrollView>` | `<div>` | A generic scrolling container that can contain multiple components and views.
 `<TextInput>` | `<EditText>` | `<UITextField>` | `<input>` | Allows the user to enter text.
-`<Touchable*>` | `<View>` | `<UIView>` | `<div>`/`<button>` | A wrapper for making views respond properly to touches. On press down, the opacity of the wrapped view is decreased, which allows the underlay color to show through, darkening or tinting the view. This is commonly used to indicate that the view is an actionable component. The `Touchable*` components can be used to make any view respond properly to touches: `<TouchableHighlight>`, `<TouchableOpacity>`, `<TouchableWithoutFeedback>`, `<TouchableNativeFeedback>`, `<TouchableBounce>`, `<Pressable>`.
+`<Touchable*>` | `<View>` | `<UIView>` | `<div>`/`<button>` | A wrapper for making views respond properly to touches. The `Touchable*` components can be used to make any view respond properly to touches: `<TouchableHighlight>`, `<TouchableOpacity>`, `<TouchableWithoutFeedback>`, `<TouchableNativeFeedback>`, `<TouchableBounce>`, `<Pressable>`.
 
 We can also build our own components to describe what you want to see on the screen. A component takes in parameters, called `props` (short for "properties"), and returns a hierarchy of views to display via the `render` method.
 
